@@ -112,10 +112,10 @@ Valence acts as a **fundamental control signal**, shaping salience, memory retri
 
 ## Development Roadmap
 
-- ▶️ **Phase 0: The Spark**  
+- ✔ **Phase 0: The Spark**  
   Implement the absolute simplest version of the core cognitive loop. This will involve a single user prompt, a handful of basic Kensho Units, a single valence variable, and a response mechanism driven by a homeostatic imperative. The goal is to prove the foundational feedback loop can function in code.
 
-- ⏳ **Phase 1: The Dreamer**  
+- ▶️ **Phase 1: The Dreamer**  
   Expand the Manifold with more complex Kensho Units. Implement the initial versions of the Episodic Stream and the Valence Core. The system will gain a persistent memory, a rudimentary emotional state, and the ability to run "offline" to process its own memories (dreaming).
   
 - ⏳ **Phase 2: The Narrator**  
