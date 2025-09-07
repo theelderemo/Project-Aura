@@ -3,6 +3,8 @@
 This document is a **living log** of experiments, outcomes, bugs, and insights discovered during the development of Project AURA.
 
 ---
+Project AURA: Experiment Log
+This document is a living log of experiments, outcomes, bugs, and insights discovered during the development of Project AURA.
 
 ## Log Entry: 2025-08-29
 
@@ -161,3 +163,77 @@ AURA: I'm detecting some negativity. It's unsettling. Let's change the topic.
 - Updated internal versioning to **v0.2** to reflect architectural milestone.  
 
 ---
+
+## Log Entry: 2025-09-07
+**Experiment:** Major architectural refactor to v0.3 (multi-file structure), implementation of permanent memory, and first live test of the new system.
+
+**Phase: 1 (The Dreamer)**
+**Code Version: v0.3 (modular, class-based architecture)**
+
+# Terminal Copy
+Initial Test Run (Bug Discovery):
+
+USER: You are a great project
+--- Manifold Processing ---
+[Sentiment-Kensho]: Positive sentiment detected.
+--- Valence Core Update ---
+[ValenceCore]: State updated to pleasure: 1.50, arousal: 0.56, dominance: 0.00
+--- Generating Response ---
+Current State: pleasure: 1.50, arousal: 0.56, dominance: 0.00
+AURA: I am listening.
+
+*Second Test Run (Post-Fix Verification):*
+
+Project-Aura> .\main.py
+--- Initializing Project AURA v0.3 ---
+[AttunementEngine]: Loaded 2 memories from 'memory.json'.
+--- AURA Initialized Successfully ---
+
+USER: You are a great project
+--- Manifold Processing ---
+[Sentiment-Kensho]: Positive sentiment detected.
+--- Valence Core Update ---
+[ValenceCore]: State updated to pleasure: 1.50, arousal: 0.56, dominance: 0.00
+--- Generating Response ---
+Current State: pleasure: 1.50, arousal: 0.56, dominance: 0.00
+AURA: I feel positive about this interaction.
+
+## Procedure
+Refactored the entire project from a single-file script (spark_v0.2.py) into a modular, multi-file architecture (v0.3) to align with the project's architectural blueprint.
+
+Implemented a permanent memory system in components/attunement_engine.py, enabling the agent to save its EpisodicStream to a memory.json file and load it upon startup.
+
+Conducted the first live test of the v0.3 system with a series of neutral, positive, and negative inputs.
+
+Restarted the agent to confirm that its memory from the previous session was loaded correctly.
+
+Identified and fixed a bug related to response thresholds.
+
+Conducted a full verification test to confirm all systems were operating as expected.
+
+## Observed Outcome
+The multi-file architecture was successfully implemented and ran as a cohesive system.
+
+The AttunementEngine correctly created memory.json on the first run and successfully loaded its contents on the second run, confirming memory persistence.
+
+A boundary condition bug was discovered: When the pleasure valence was exactly 1.50, the agent failed to give a positive response, defaulting to the neutral "I am listening."
+
+After applying a fix, the agent correctly responded with "I feel positive about this interaction." when its pleasure state hit the 1.50 threshold.
+
+The agent correctly responded to negative stimuli, demonstrating the full emotional and response range is functional.
+
+## Analysis & Insight
+The modular architecture is a success, enabling cleaner separation of concerns and future scalability as outlined in the "Dreamer" phase.
+
+The permanent memory system is the most significant step forward, transforming the agent from a reactive system to one with a persistent history and the potential for long-term learning. Need to work on language association and learning (meaning of words, context)
+
+The bug was caused by a strict "greater than" (>) check in aura_agent.py's response logic, which failed to account for cases where the valence was exactly equal to the threshold. This highlights the importance of testing boundary conditions in any threshold-based system.
+
+## Action Taken
+Updated the project to the v0.3 file structure, including main.py, aura_agent.py, config.py, and the components and manifold packages.
+
+Modified components/attunement_engine.py to add _load_memory() and _save_memory() methods that interact with a JSON file.
+
+Corrected the bug in aura_agent.py by changing the conditional check from pleasure > threshold to pleasure >= threshold.
+
+Completed a full interaction test, logging a total of 6 memories and verifying the agent's ability to feel, respond, and remember correctly, tho very basic.
