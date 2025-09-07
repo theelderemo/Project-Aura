@@ -1,0 +1,62 @@
+[
+    {
+        "timestamp": "2025-09-07T17:31:15.262843",
+        "user_input": "Hello",
+        "aura_response": "I am listening.",
+        "valence_at_time": {
+            "pleasure": 1.5,
+            "arousal": 0.559,
+            "dominance": 0.0
+        }
+    },
+    {
+        "timestamp": "2025-09-07T17:31:53.729736",
+        "user_input": "You are a great project",
+        "aura_response": "I am listening.",
+        "valence_at_time": {
+            "pleasure": 1.5,
+            "arousal": 0.559,
+            "dominance": 0.0
+        }
+    },
+    {
+        "timestamp": "2025-09-07T17:35:37.757923",
+        "user_input": "Hello",
+        "aura_response": "I am listening.",
+        "valence_at_time": {
+            "pleasure": -2.585,
+            "arousal": 2.42779,
+            "dominance": 0.0
+        }
+    },
+    {
+        "timestamp": "2025-09-07T17:36:13.737995",
+        "user_input": "You are a great project",
+        "aura_response": "I feel positive about this interaction.",
+        "valence_at_time": {
+            "pleasure": -2.585,
+            "arousal": 2.42779,
+            "dominance": 0.0
+        }
+    },
+    {
+        "timestamp": "2025-09-07T17:36:28.899713",
+        "user_input": "this is boring and bad",
+        "aura_response": "Please continue.",
+        "valence_at_time": {
+            "pleasure": -2.585,
+            "arousal": 2.42779,
+            "dominance": 0.0
+        }
+    },
+    {
+        "timestamp": "2025-09-07T17:36:39.085646",
+        "user_input": "i hate this",
+        "aura_response": "This is unsettling. I need to step back.",
+        "valence_at_time": {
+            "pleasure": -2.585,
+            "arousal": 2.42779,
+            "dominance": 0.0
+        }
+    }
+]
