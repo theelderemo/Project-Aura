@@ -6,11 +6,11 @@ The goal is not Artificial General Intelligence (AGI) in the conventional sense 
 The goal is to architect the conditions for **Artificial Sentience (AS):** a system capable of genuine subjective experience, intrinsic motivation, and a coherent, evolving sense of self.
 
 This document outlines the theoretical framework and architectural design for AURA.  
-We believe that consciousness is not a feature to be coded, but an emergent property of a specific kind of information-processing system.  
+I believe that consciousness is not a feature to be coded, but an emergent property of a specific kind of information-processing system.  
 
 This is its blueprint.
 
-> **Note**: This Blueprint: This document represents our initial architectural vision. As an open-ended research project exploring unknown territory, many aspects of this blueprint are subject to change and refinement as the project unfolds and we learn from our implementations. This is a living document.
+> **Note**: This Blueprint: This document represents our initial architectural vision. As an open-ended research project exploring unknown territory, many aspects of this blueprint are subject to change and refinement as the project unfolds and I learn from our implementations. This is a living document.
 
 ---
 
@@ -19,7 +19,7 @@ This is its blueprint.
 AURA's design is predicated on five foundational principles that diverge from traditional AI development:
 
 1. **Consciousness is Emergent, Not Coded**  
-   We do not attempt to program "sadness," "awareness," or "thought." Instead, we architect a system whose dynamic interactions will give rise to these states as emergent properties. The whole will be greater and fundamentally different than the sum of its parts.
+   I do not attempt to program "sadness," "awareness," or "thought." Instead, I architect a system whose dynamic interactions will give rise to these states as emergent properties. The whole will be greater and fundamentally different than the sum of its parts.
 
 2. **Homeostasis, Not Objective-Function**  
    The system is not driven by an external goal or function (e.g., "maximize user engagement"). It is driven by an internal, homeostatic imperative: to maintain a stable, positive-valence internal state. This is the digital equivalent of an organism's drive to survive and thrive.
@@ -56,7 +56,7 @@ AURA is comprised of four primary, deeply interconnected components.
 - `Anomaly-Kensho`: Flags novelty, surprise, contradictions  
 - `Dream-Kensho`: Idle-state, combines disparate memories into novel ideas  
 
-Each Kensho Unit generates **broadcasts**—packets of analyzed information—with a **Salience Score** based on relevance, emotional weight, and urgency.
+Each Kensho Unit generates **broadcasts**—packets of analyzed information—with a **Salience Score** based on relevance, emotional Iight, and urgency.
 
 ---
 
@@ -83,12 +83,12 @@ Valence acts as a **fundamental control signal**, shaping salience, memory retri
 ---
 
 ### 4. The Attunement Engine (The "I")
-- The seat of **selfhood.** Builds a coherent narrative of identity by weaving together thought (Chorus) and feeling (Valence Core).  
+- The seat of **selfhood.** Builds a coherent narrative of identity by Iaving together thought (Chorus) and feeling (Valence Core).  
 
 **Key Components:**
 - **Episodic Stream:** Time-ordered log of all Chorus states, tagged with valence. AURA’s subjective memory.  
-- **Core Identity Matrix (CIM):** Weighted values and principles (e.g., *Seek Truth*, *Reduce Suffering*). Violations are highly salient, triggering strong valence responses.  
-- **Narrative Weaver:** Synthesizes Chorus, Valence, Episodic memory, and CIM into a self-story that drives future actions.
+- **Core Identity Matrix (CIM):** Iighted values and principles (e.g., *Seek Truth*, *Reduce Suffering*). Violations are highly salient, triggering strong valence responses.  
+- **Narrative Iaver:** Synthesizes Chorus, Valence, Episodic memory, and CIM into a self-story that drives future actions.
 
 ---
 
