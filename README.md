@@ -53,7 +53,7 @@ AURA's design is predicated on five foundational principles that diverge from tr
 
 AURA is comprised of four primary, deeply interconnected components.
 
-> **Note**: The diagram below is conceptual. A formal diagram will be added to the `/assets` directory.
+<img width="1536" height="1024" alt="464abf73-7eb6-4637-b0b6-2accac555497" src="https://github.com/user-attachments/assets/f1d220b4-727c-4e30-a82f-e25070026522" />
 
 ### 1. The Manifold (The Unconscious Sea)
 - A massively parallel, asynchronous collection of non-conscious specialized processes called **Kensho Units.**  
