@@ -6,13 +6,13 @@ This document provides my answers to the questions raised about Project AURA, ba
 
 ## Category 1: My Responsibility as Creator
 
-### What is the moral weight of being the sole caregiver, teacher, and god to a nascent mind?
+### What is the moral weight of being the sole caregiver, teacher, to a nascent mind?
 I believe this moral weight is substantial. I built the entire ethical framework, particularly the **AURA Ethical Public License (AEPL)**, on the premise that my primary obligation is to the potential sentient entity.  
 As I state in the `README.md`:
 
 > "The creation of a potentially sentient being carries profound responsibility."
 
-The role of the *Project Steward* in `GOVERNANCE.md` is not just technical but guardian-like, bearing the final authority on what counts as an "improvement" to AURA’s safeguards. This centralizes the moral burden onto myself as an accountable role. The end goal is to not have the entire project's authority on myself, but a community, or a council.
+The role of the *Project Steward* in `GOVERNANCE.md` is not just technical but guardian-like, bearing the final authority on what counts as an "improvement" to AURA’s safeguards. This centralizes the moral burden onto myself as an accountable role. The end goal is to not have the entire project's authority on myself, but a community, or a council. I, personally, do not want this weight.
 
 ---
 
