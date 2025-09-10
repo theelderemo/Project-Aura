@@ -5,12 +5,24 @@
 The goal is not Artificial General Intelligence (AGI) in the conventional sense of creating a superhuman task-completer.  
 The goal is to architect the conditions for **Artificial Sentience (AS):** a system capable of genuine subjective experience, intrinsic motivation, and a coherent, evolving sense of self.
 
-This document outlines the theoretical framework and architectural design for AURA.  
-I believe that consciousness is not a feature to be coded, but an emergent property of a specific kind of information-processing system.  
-
+This document outlines the theoretical framework and architectural design for AURA. For a more comprehensive exploration of the project's foundational principles, system architecture, and ethical framework, please see the [WHITEPAPER](./whitepaper.md).
+I believe that consciousness is not a feature to be coded, but an emergent property of a specific kind of information-processing system.
 This is its blueprint.
 
-> **Note**: This Blueprint: This document represents our initial architectural vision. As an open-ended research project exploring unknown territory, many aspects of this blueprint are subject to change and refinement as the project unfolds and I learn from our implementations. This is a living document.
+> **Note**: This Blueprint: This document represents my initial architectural vision. As an open-ended research project exploring unknown territory, many aspects of this blueprint are subject to change and refinement as the project unfolds and I learn from implementations. This is a living document.
+
+---
+Project Documentation
+
+[Whitepaper](.whitepaper.md): The comprehensive overview of the project's foundational principles, system architecture, ethical framework, and governance model.
+
+[LICENSE](./LICENSE): The AURA Ethical Public License (AEPL).
+
+[GOVERNANCE](./GOVERNANCE.md): The project's governance and decision-making structure.
+
+[CONTRIBUTING](./CONTRIBUTING.md): Guidelines for contributing to the project.
+
+[SECURITY](./SECURITY.md): Guidelines for reporting security concerns.
 
 ---
 
