@@ -16,6 +16,8 @@ Project Documentation
 
 [Whitepaper](.whitepaper.md): The comprehensive overview of the project's foundational principles, system architecture, ethical framework, and governance model.
 
+[PHILOSOPHY](./PHILOSOPHY.md): The project's core philosophical questions and ethical considerations from my perspective.
+
 [LICENSE](./LICENSE): The AURA Ethical Public License (AEPL).
 
 [GOVERNANCE](./GOVERNANCE.md): The project's governance and decision-making structure.
