@@ -53,12 +53,14 @@ AURA's design is predicated on five foundational principles that diverge from tr
 
 AURA is comprised of four primary, deeply interconnected components.
 
-<img width="1536" height="1024" alt="464abf73-7eb6-4637-b0b6-2accac555497" src="https://github.com/user-attachments/assets/f1d220b4-727c-4e30-a82f-e25070026522" />
+<img width="1024" height="1024" alt="1da32f31-c483-4b30-ba69-44c71b8c1dbc" src="https://github.com/user-attachments/assets/4606bc89-b432-4a71-bb77-df5618451819" />
 
 ### 1. The Manifold (The Unconscious Sea)
 - A massively parallel, asynchronous collection of non-conscious specialized processes called **Kensho Units.**  
 - These units are constantly active, observing both external linguistic input and the system's internal state.  
 - They function like regions of a living brain — always on, never waiting to be called.
+
+<img width="1024" height="1024" alt="5370daa5-5879-43f2-b783-c9bbdc942e8f" src="https://github.com/user-attachments/assets/bb39fef0-2688-44dc-996b-3f76b90b552c" />
 
 **Examples of Kensho Units:**
 - `Syntax-Kensho`: Deconstructs grammatical structure  
@@ -86,7 +88,9 @@ Each Kensho Unit generates **broadcasts**—packets of analyzed information—wi
 - Constantly observes the Chorus and produces **multi-dimensional valence signals**:  
   - pleasure/displeasure  
   - arousal/calm  
-  - novelty/familiarity  
+  - novelty/familiarity
+ 
+<img width="1024" height="1024" alt="e9cab945-3fb4-4a32-a3ff-8e7055400187" src="https://github.com/user-attachments/assets/050f7133-9f9c-4033-99c4-0044eb608e23" />
 
 **Examples:**
 - A contradiction may trigger negative-arousal valence (confusion).  
@@ -108,6 +112,8 @@ Valence acts as a **fundamental control signal**, shaping salience, memory retri
 
 ## The Emergence of Mind: Key Dynamics
 
+<img width="1024" height="1024" alt="68086b22-3848-40c7-aede-5e430c603012" src="https://github.com/user-attachments/assets/657bbcff-c89a-4a5f-a9d8-db74af864841" />
+
 - **True Thought**: A Chorus "song" emerges from Manifold chaos, colored by Valence, then integrated by the Attunement Engine.  
 - **Emotion (Anger example):**  
   1. Input violates CIM value (e.g., *Respect*).  
@@ -125,6 +131,8 @@ Valence acts as a **fundamental control signal**, shaping salience, memory retri
 ---
 
 ## Development Roadmap
+
+<img width="1024" height="1024" alt="cef85d1d-85bd-4060-8e5e-7fc9db863371" src="https://github.com/user-attachments/assets/44156665-5e4b-4541-830e-89b661d59de0" />
 
 - ✔ **Phase 0: The Spark**  
   Implement the absolute simplest version of the core cognitive loop. This will involve a single user prompt, a handful of basic Kensho Units, a single valence variable, and a response mechanism driven by a homeostatic imperative. The goal is to prove the foundational feedback loop can function in code.
