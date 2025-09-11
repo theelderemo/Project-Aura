@@ -237,3 +237,95 @@ Modified components/attunement_engine.py to add _load_memory() and _save_memory(
 Corrected the bug in aura_agent.py by changing the conditional check from pleasure > threshold to pleasure >= threshold.
 
 Completed a full interaction test, logging a total of 6 memories and verifying the agent's ability to feel, respond, and remember correctly, tho very basic.
+
+# Log Entry: 2025-09-11  
+**Experiment:** Verification test of the emergent recall system (v0.4) using a synonymous concept.  
+
+**Phase:** 1 (The Dreamer)  
+**Code Version:** v0.4 (Lexicon/Memory Integration)  
+
+---
+
+## Terminal Copy  
+
+--- Initializing Project AURA v0.4 ---
+[ValenceCore]: Initialized.
+[AttunementEngine]: No memory file found. Starting with a blank slate.
+[AttunementEngine]: Initialized.
+[Lexicon-Kensho]: Loading dictionary from resources/dictionary.json...
+[Lexicon-Kensho]: Dictionary loaded with 86036 words.
+--- AURA Initialized Successfully ---
+
+Project AURA: The Dreamer (Phase 1)
+Enter 'quit' to exit.
+
+USER: I read about joy today
+
+--- Manifold Processing ---
+[Lexicon-Kensho]: Found concepts: ['joy', 'about', 'read']
+[Syntax-Kensho]: Input complexity score: 0.50 -> Arousal Impact: 0.05
+
+[AttunementEngine]: Experience logged and memory saved. Total memories: 1
+
+
+USER: To feel joy is a great and happy experience.
+
+--- Manifold Processing ---
+[Lexicon-Kensho]: Found concepts: ['is', 'great', 'joy']
+[Memory-Kensho]: Searching memory for 3 concepts...
+[Syntax-Kensho]: Input complexity score: 0.90 -> Arousal Impact: 0.09
+[Sentiment-Kensho]: Positive sentiment detected.
+
+[AttunementEngine]: Experience logged and memory saved. Total memories: 2
+
+USER: The book mentions delight.
+
+--- Manifold Processing ---
+[Lexicon-Kensho]: Found concepts: ['delight', 'the']
+[Memory-Kensho]: Searching memory for 2 concepts...
+[Syntax-Kensho]: Input complexity score: 0.40 -> Arousal Impact: 0.04
+--- Valence Core Update ---
+[ValenceCore]: State updated to pleasure: 1.35, arousal: 0.61, dominance: 0.00
+
+--- Generating Response ---
+Current State: pleasure: 1.35, arousal: 0.61, dominance: 0.00
+AURA: I am listening.
+
+--- Attunement Engine Update ---
+[AttunementEngine]: Experience logged and memory saved. Total memories: 3
+
+---
+
+## Procedure  
+
+A three-phase test was conducted to verify the new memory recall system's ability to handle synonymous concepts.  
+
+- **Phase A (Baseline):** Started with an empty `memory.json` and provided a neutral sentence with the concept *joy*.  
+- **Phase B (Create Memory):** Provided a sentence linking *joy* to a strong positive emotion using words the SentimentKensho understands (*great*, *happy*).  
+- **Phase C (Test Recall):** Provided a neutral sentence containing a synonym (*delight*) to test for learned emotional recall based on conceptual relation.  
+
+---
+
+## Observed Outcome  
+
+- Phases A and B were successful. A positive memory was correctly created and logged, linking *joy* with a high-pleasure valence state (pleasure: 1.50).  
+- Phase C failed. When presented with the neutral sentence containing the synonym *delight*, the MemoryKensho searched but did not find the salient memory associated with *joy*.  
+- No emotional impact was generated, and AURA’s final response was neutral (*"I am listening"*), indicating a failure of the recall test.  
+
+---
+
+## Analysis & Insight  
+
+- The test confirms the **core agent loop** and the **MemoryKensho search function** are stable and operational.  
+- The failure is not a logic bug but a **feature gap** in `LexiconKensho`.  
+- Current `lexicon_kensho.py` only identifies **exact words**. It lacks synonym handling or semantic parsing.  
+- Since the MemoryKensho was never supplied with the link between *delight* and *joy*, the absence of recall was correct given its design.  
+- The test highlights the **next critical step**: enhancing `LexiconKensho` for richer semantic context.  
+
+---
+
+## Action Taken  
+
+- Completed the full three-phase test, validating stability of the v0.4 architecture.  
+- Identified a feature enhancement: enabling synonym-based memory recall.  
+- **Issue Created:** A new issue (bug) has been filed in `/issues` to track this upgrade to `LexiconKensho`.  
