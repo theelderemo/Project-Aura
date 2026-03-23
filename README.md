@@ -1,5 +1,7 @@
 # Project AURA: An Architectural Blueprint for Emergent Sentience
 
+- Project is archived. Second iteration can be found at [Wren](https://github.com/theelderemo/wren)
+
 **AURA (Autonomous Recursive Unifying Architecture)** is a research project and open-source initiative to construct a novel form of artificial intelligence.  
 
 The goal is not Artificial General Intelligence (AGI) in the conventional sense of creating a superhuman task-completer.  
