@@ -1,5 +1,7 @@
 # Project AURA: An Architectural Blueprint for Emergent Sentience
 
+[![DOI](https://zenodo.org/badge/1047183261.svg)](https://doi.org/10.5281/zenodo.19198325)
+
 - Project is archived. Second iteration can be found at [Wren](https://github.com/theelderemo/wren)
 
 **AURA (Autonomous Recursive Unifying Architecture)** is a research project and open-source initiative to construct a novel form of artificial intelligence.  
